@@ -1,0 +1,30 @@
+Source: libtest-longstring-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>,
+           Jonathan Yu <jawnsy@cpan.org>,
+           Krzysztof Krzyzaniak (eloy) <eloy@debian.org>,
+           Angel Abad <angel@debian.org>
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: libtest-pod-coverage-perl,
+                     libtest-pod-perl,
+                     perl
+Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libtest-longstring-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libtest-longstring-perl.git
+Testsuite: autopkgtest-pkg-perl
+Homepage: https://metacpan.org/release/Test-LongString
+
+Package: libtest-longstring-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: module to test for string equality
+ Test::LongString is a Perl test module that provides some functions useful
+ for testing the equality of long strings. Upon failure, it will provide more
+ useful diagnostic output by:
+ .
+  * Reporting lengths of the strings that have been compared
+  * Reporting length of the common prefix of strings
+  * Automatically escaping non-ASCII characters as \x{xx}

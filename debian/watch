@@ -1,0 +1,2 @@
+version=3
+https://metacpan.org/release/Test-LongString   .*/Test-LongString-v?(\d[\d.]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)

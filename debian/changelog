@@ -1,0 +1,126 @@
+libtest-longstring-perl (0.17-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 19:19:05 +0100
+
+libtest-longstring-perl (0.17-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * debian/control: Add Testsuite field.
+
+  [ Angel Abad ]
+  * Imported Upstream version 0.17
+  * Bump Debhelper compat level to 9
+  * debian/copyright: Update debian/* years
+  * Declare compliance with Debian Policy 3.9.6.
+
+ -- Angel Abad <angel@debian.org>  Tue, 23 Dec 2014 13:33:51 +0100
+
+libtest-longstring-perl (0.16-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Angel Abad ]
+  * Email change: Angel Abad -> angel@debian.org
+
+  [ Salvatore Bonaccorso ]
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * Add debian/upstream/metadata
+  * Imported upstream version 0.16
+  * Add autopkgtest control file.
+  * Drop patch fix-spelling-error, merged upstream.
+  * Update years of upstream and packaging copyright.
+  * Bump debhelper compatibility level to 8.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 08 Sep 2014 20:49:34 +0200
+
+libtest-longstring-perl (0.15-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/copyright:
+    - Update license stanzas
+    - Update copyright years
+  * debian/patches/fix-spelling-error:
+    - New patch to fix spelling error in manpage
+
+ -- Angel Abad <angelabad@gmail.com>  Tue, 08 Feb 2011 10:16:47 +0100
+
+libtest-longstring-perl (0.14-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/copyright: Update license information
+  * Switch to dpkg-source format 3.0 (quilt)
+  * Bump Standards-Version to 3.9.1 (no changes)
+
+ -- Angel Abad <angelabad@gmail.com>  Tue, 28 Sep 2010 20:33:13 +0200
+
+libtest-longstring-perl (0.13-1) unstable; urgency=low
+
+  * New upstream release
+  * Update copyright file
+  * Bump Standards-Version to 3.8.4 (no changes)
+  * Add myself to uploaders
+
+ -- Angel Abad <angelabad@gmail.com>  Sun, 31 Jan 2010 14:13:53 +0100
+
+libtest-longstring-perl (0.12-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+  * Standards-Version 3.8.3 (drop perl version dep)
+  * Use new short debhelper 7 rules format
+  * Rewrite control description
+  * Add myself to Uploaders and Copyright
+  * Refresh copyright to new DEP5 format
+
+  [ gregor herrmann ]
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+  * Change my email address.
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Tue, 12 Jan 2010 13:35:35 -0500
+
+libtest-longstring-perl (0.11-2) unstable; urgency=low
+
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza). Removed: XS-
+    Vcs-Svn fields.
+  * debian/rules:
+    - delete /usr/lib/perl5 only if it exists (closes: #467977)
+    - update based on dh-make-perl's templates
+    - don't install almost empty README anymore
+  * debian/watch: use dist-based URL.
+  * Set Standards-Version to 3.7.3 (no changes).
+  * debian/copyright: use generic download URL.
+
+ -- gregor herrmann <gregor+debian@comodo.priv.at>  Wed, 12 Mar 2008 19:54:31 +0100
+
+libtest-longstring-perl (0.11-1) unstable; urgency=low
+
+  * New upstream release.
+  * Set Standards-Version to 3.7.2 (no changes).
+
+ -- gregor herrmann <gregor+debian@comodo.priv.at>  Sun, 19 Nov 2006 18:38:20 +0100
+
+libtest-longstring-perl (0.09-1) unstable; urgency=low
+
+  * Initial Release (closes: #364746).
+
+ -- Krzysztof Krzyzaniak (eloy) <eloy@debian.org>  Tue, 25 Apr 2006 13:39:26 +0200
+
